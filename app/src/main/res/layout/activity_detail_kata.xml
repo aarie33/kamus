@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/horizontal_margin"
+    tools:context=".DetailKata">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtKata"
+        android:text="@string/kata"
+        android:textSize="@dimen/sp30"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keterangan"
+        android:layout_marginTop="@dimen/horizontal_margin"
+        android:layout_marginBottom="@dimen/margin6"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtKeterangan"
+        android:text="@string/keterangan"
+        android:textSize="@dimen/sp20"/>
+
+</LinearLayout>
